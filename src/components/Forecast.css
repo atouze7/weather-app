@@ -1,0 +1,23 @@
+div {
+  z-index: 9;
+}
+
+.main-div {
+  padding: 20px;
+  display: flex;
+  position: relative;
+  top: 156px;
+}
+
+.days {
+  background-color: lightseagreen;
+  height: 270px;
+  width: 180px;
+  overflow: hidden;
+  margin-right: 35px;
+}
+
+img {
+  position: relative;
+  bottom: 7px;
+}

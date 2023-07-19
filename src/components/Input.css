@@ -1,0 +1,49 @@
+div {
+  display: grid;
+  place-items: center;
+}
+
+button {
+  height: 40px;
+  width: 50px;
+  position: relative;
+  left: 170px;
+  bottom: 20px;
+  border: none;
+  background-color: aliceblue;
+}
+
+button:hover {
+  background-color: cyan;
+  cursor: pointer;
+}
+
+input {
+  z-index: 9;
+  width: 290px;
+  border-radius: 25px;
+  border: none;
+}
+
+.title {
+  position: relative;
+  top: 44px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.search {
+  height: 190px;
+  position: fixed;
+  width: 100%;
+  background-color: teal;
+  left: 0px;
+  top: -66px;
+}
+
+img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
